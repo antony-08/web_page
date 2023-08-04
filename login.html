@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class = "login">
+            <h1 style="text-align: center;">login page</h1>
+            <h2>login page</h2>
+            <h3>login page</h3>
+            <br>
+            <br>
+            <div class="input_id_name">
+                아이디
+                <input class = "id">
+            </div>
+
+            <div class="input_password">
+                비밀번호
+                <input class="password">
+            </div>
+
+            <button class="login_button" onclick="login_completed()">
+                로그인
+            </button>
+
+
+
+            <script>
+                function login_completed(){
+                    console.log("로그인 완료!")
+                    var id = document.getElementsByClassName("id")
+                    console.log(id)
+                    window.open("C:/최나단/logined.html")
+                }
+
+            </script>
+        </div>
+    </body>
+</html>
